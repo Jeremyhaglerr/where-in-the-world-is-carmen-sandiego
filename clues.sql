@@ -37,7 +37,7 @@ SELECT * FROM country c LEFT JOIN countrylanguage cl ON c.code = cl.countrycode 
 -- TODO: Write SQL query here
 
 
-
+SELECT * FROM city c LEFT JOIN country co ON c.countrycode = co.code WHERE co.code = 'SMR' AND c.name <> co.name;
 
 
 -- Clue #5: Oh no, she pulled a switch – there are two cities with very similar 
