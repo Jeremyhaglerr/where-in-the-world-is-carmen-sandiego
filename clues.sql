@@ -48,7 +48,7 @@ SELECT * FROM city c LEFT JOIN country co ON c.countrycode = co.code WHERE co.co
 
 -- TODO: Write SQL query here
 
-
+SELECT * FROM city c LEFT JOIN country co ON c.countrycode = co.code WHERE c.name ILIKE 'Serra%' AND co.region = 'South America';
 
 
 -- Clue #6: We're close! Our South American agent says she just got a taxi at
