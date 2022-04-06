@@ -16,7 +16,7 @@ SELECT * FROM country WHERE region ILIKE '%southern%europe%' ORDER BY population
 
 -- TODO: Write SQL query here
 
-
+SELECT * FROM country c RIGHT JOIN countrylanguage cl ON c.code = cl.countrycode WHERE c.code = 'VAT' AND cl.isofficial = 't';
 
 
 
