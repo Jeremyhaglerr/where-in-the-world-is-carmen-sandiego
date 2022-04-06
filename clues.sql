@@ -24,7 +24,7 @@ SELECT * FROM country c RIGHT JOIN countrylanguage cl ON c.code = cl.countrycode
 
 -- TODO: Write SQL query here
 
-
+SELECT * FROM country c LEFT JOIN countrylanguage cl ON c.code = cl.countrycode WHERE c.region ILIKE '%southern%europe%' AND cl.language ILIKE '%italian%' AND cl.percentage = 100;
 
 
 
