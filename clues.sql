@@ -58,7 +58,7 @@ SELECT * FROM city c LEFT JOIN country co ON c.countrycode = co.code WHERE c.nam
 
 -- TODO: Write SQL query here
 
-
+SELECT * FROM city c LEFT JOIN country co ON c.countrycode = co.code WHERE c.id = co.capital AND co.code = 'BRA';
 
 
 -- Clue #7: She knows we're on to her – her taxi dropped her off at the 
